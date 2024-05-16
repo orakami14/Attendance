@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Check-in</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Check-in</h1>
-    </header>
-    <main>
-        <p id="attendance-details"></p>
-        <button id="logout-btn">Logout</button>
-    </main>
-    <script src="script.js"></script>
+	<div class="container">
+		<h1>Dashboard</h1>
+		<div id="user-details"></div>
+		<div id="check-in-details" style="display: none;">
+			<p>You are present.</p>
+			<p id="check-in-time"></p>
+		</div>
+		<button id="check-in-button">Check In</button>
+        <button id="check-out-button">Check Out</button>
+        <button id="logout-button">Logout</button>
+	</div>
+	<script src="script.js">
+    </script>
 </body>
 </html>
